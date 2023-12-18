@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "map-trivia"
+version = "0.1.0"
+description = "A Streamlit app"
+authors = ["Arnfried Rixen <datadingo44@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "*"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
